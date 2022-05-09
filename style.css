@@ -1,0 +1,490 @@
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0;
+  font-family: Arial, sans-serif;
+  
+  }
+  
+  .propa1 {
+    
+    width: 100%;
+      height: 100%;
+  }
+  
+  .titulo {
+    font-size: 15px;
+  }
+  
+  .pesquisa{
+    font-size: 12px;
+    margin-top: 45px;
+    margin-right: 17px;
+  }
+  
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background:linear-gradient(180deg, #b1b1b1, white);
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .logo {
+    width: 200px;
+    height: 110px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  
+  @media only screen and (min-width : 480px) {
+    .logo{
+      
+      width: 400px;
+      height: 150px;
+      padding-top: 20px;
+      margin-left: 30px;
+    }
+
+    .propa1 {
+      width: 30%;
+    }
+
+  
+}
+  
+  .descricao {
+    text-align: center;
+  }
+  
+  .textao {
+    font-size: 19px;
+    margin-top: 25px;
+    color: #0000ff;
+    text-align: center;
+  }
+  
+  .textinho {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  
+  .propaganda1 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .propaganda2 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc0cb;
+    padding-bottom: 140px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .ultimas {
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+  
+  .data {
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  
+  .cvagas {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .vaga {
+    
+    padding-top: 20px;
+  }
+  
+  @media (min-width: 400px) {
+
+    .vaga{
+      padding-top: 20px;
+      margin-bottom: 30px; 
+    }
+    
+    
+  }
+
+  .date {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .botao {
+    font-size: 20px;
+  color: #5656fc;
+  text-decoration: none;
+  }
+  
+  .cidade {
+   text-decoration: underline 2px solid;
+   margin-bottom: 20px;
+   margin-top: 15px;
+  }
+  
+  @media (min-width: 480px) {
+    .cidade {
+      margin-bottom: 35px;
+      font-size: 15px;
+    }
+
+    .botao {
+      font-size: 25px;
+    }
+
+    
+
+  }
+
+  .divisor {
+    background-color: #000000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 1px 1px 1px 1px;
+  }
+  
+  .todasvagas {
+     color: #5656fc;
+     font-size: 25px;
+     margin-left: 15px;
+     margin-top: 25px;
+  }
+  
+  .final {
+    margin-top: 30px;
+  }
+  
+  .face {
+    display: flex;
+  background:linear-gradient(180deg, white, #b1b1b1);
+  }
+  
+  .fb-page {
+   margin: 0 auto;
+  }
+   
+  .descriptioncss {
+   margin-left: 15px;
+   margin-right: 15px;
+   margin-bottom: 50px;
+   font-size: 18px;
+  }
+  
+  .dia {
+   margin-left: 15px;
+   margin-top: 35px;
+   font-size: 18px;
+   text-transform: bold;
+  }
+  
+  .sobrenos {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+  }
+  
+  .sobretitulo {
+    margin-top: 15px;
+    text-align: center;
+    color: #0000ff;
+    position: relative;
+    z-index: 1;
+    
+  }
+  
+  .menuicon {
+    width: 35%;
+    height: 30%;
+    position: relative;
+    left: 15px;
+    top: 20px;
+
+  }
+
+  @media (min-width: 480px) {
+    .menuicon{
+      width: 48%;
+    height: 30%;
+    position: relative;
+    left: -15px;
+    top: 20px;
+    }
+  }
+  
+  .dropdownmenu {
+    width: 150px;
+    height: 50px;
+  
+    list-style: none;
+   font-size: 20px;
+z-index: 10;
+   position: relative;
+    right: 10px;
+}
+  
+
+  
+  .dropdownmenu a {
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+  }
+  
+  
+  
+
+
+  .dropdownsubmenu {
+    margin-top: 1px;
+    z-index: 2;
+    display: none;
+    
+    
+  }
+  
+@media (max-width: 350px) {
+    .dropdownmenu{
+      width: 100px;
+    }
+  
+    .menuicon {
+      width: 48%;
+      height: 30%;
+      position: relative;
+      left: 15px;
+      top: 20px;
+    }
+  
+    .dropdownsubmenu {
+      margin-top: 1px;
+      z-index: 2;
+      margin-left: -30px;
+  }
+  }
+
+  .dropdownsubmenu a {
+    background-color: lightgray;
+    color: blue;
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 7px;
+    z-index: 3;
+    font-size: 18px;
+    padding-bottom: 15px;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .entrecontato {
+    font-size: 17px;
+  }
+  
+  .email {
+    color: #7878ff;
+    font-size: 18px;
+  }
+  
+  .aviso {
+    border: 2px solid red;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .avisinho {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .espaco {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: flex-start;
+    font-size: 15px;
+  }
+  
+  .vermelho{
+    color: #ff7979;
+  }
+  
+  .azul {
+    color: #0000b1c5;
+    text-decoration: none;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .azul2 {
+    color: #0000b1c5;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+
+  .margem {
+    margin-left: 15px;
+  }
+  
+  .cadastro {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 15px;
+    color: #4646ff;
+  }
+  
+  @media (min-width:480px) {
+    .dropdownsubmenu {
+      margin-left: -30px;
+    }
+    
+    .azul{
+      font-size: 40px;
+    }
+  
+    .azul2{
+      font-size: 21px;
+    }
+    
+    .date{
+      margin-bottom: 30px;
+      margin-top: 70px;
+    }
+  
+    .espaco{
+      font-size: 20px;
+    }
+    
+    .cadastro{
+      font-size: 20px;
+    }
+
+    .textao {
+      font-size: 30px;
+    }
+
+    .textinho{
+      font-size: 20px;
+    }
+  }
+
+  .centralizado {
+    text-align: flex-start;
+    
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+
+  .rodape{
+    background:linear-gradient(180deg, white, #b1b1b1);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  .rodapetitulo{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: darkblue;
+    font-size: 20px;
+  }
+
+  .rodapetexto{
+    font-size: 15px;
+    color: darkgreen;
+  }
+
+  .copiright{
+    font-size: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    color: darkblue;
+  }
+
+  .rodapelogo {
+    width: 65%;
+   position: absolute;
+   
+
+  }
+
+  @media (min-width: 400px) {
+    .rodapelogo{
+      width: 55%;
+      
+    }
+  }
+
+  .alinhado{
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width:480px) {
+    .rodape{
+      padding-top: 50px;
+      padding-bottom: 115px;
+    }
+    .alinhado{
+      position: relative;
+    right: 0px;
+    top: 15px;
+    justify-content: flex-start;
+    
+    }
+    .rodapetitulo{
+      font-size: 30px;
+    }
+
+    .rodapelogo {
+      width: 270px;
+      margin-top: 25px;
+    }
+
+    .rodapetexto{
+      position: relative;
+      top: 95px;
+      font-size: 20px;
+    }
+
+    .copiright{
+      position: relative;
+    top: 100px;
+      font-size: 20px;
+    }
+  }
